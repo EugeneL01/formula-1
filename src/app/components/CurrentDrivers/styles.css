@@ -1,0 +1,12 @@
+@import "../../globals.css";
+
+.inner-container::before {
+  background-color: currentColor;
+  bottom: 5px;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 5px;
+}
