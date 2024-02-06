@@ -10,3 +10,11 @@
   top: 2px;
   width: 5px;
 }
+
+.driver-container {
+  transition: all 0.2s ease-in-out;
+}
+
+.driver-container:hover {
+  transform: scale(1.1);
+}
